@@ -1,4 +1,39 @@
 # TAREA-INDIVIDUAL
+EJERCICIO 8
+
+EJERCICIO 9
+
+EJERCICIO 10
+
+Algoritmo 2: calcular media ponderada con números y coeficientes de ponderación fijos
+Algoritmo **media2**
+
+**Entrada**
+
+Media: **REAL**
+  * La media entre los tres valores
+
+**Constante**
+
+num1= **REAL**
+num2= **REAL**
+num3= **REAL**
+coeficiente1 = **REAL**
+coeficiente2 = **REAL**
+coeficiente3 = **REAL**
+
+**realización**
+```
+Calcular la media de los tres valores
+
+media = num1 x coeficiente1 + num2 x coeficiente2 + num3 x coeficiente3
+```
+**postcondición**
+...
+fin media2
+
+
+
 EJERCICIO 11
 
 Algoritmo 1: Renumeración de horas extra - Solución de principio
