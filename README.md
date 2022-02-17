@@ -15,12 +15,12 @@ Media: **REAL**
 
 **Constante**
 
-num1= **REAL**
-num2= **REAL**
-num3= **REAL**
-coeficiente1 = **REAL**
-coeficiente2 = **REAL**
-coeficiente3 = **REAL**
+ num1= **REAL**
+ num2= **REAL**
+ num3= **REAL**
+ coeficiente1 = **REAL**
+ coeficiente2 = **REAL**
+ coeficiente3 = **REAL**
 
 **realización**
 ```
