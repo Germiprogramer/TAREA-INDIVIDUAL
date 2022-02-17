@@ -6,6 +6,7 @@ EJERCICIO 9
 EJERCICIO 10
 
 Algoritmo 2: calcular media ponderada con números y coeficientes de ponderación fijos
+
 Algoritmo **media2**
 
 **Entrada**
@@ -34,7 +35,9 @@ Calcular la media de los tres valores
 media = num1 x coeficiente1 + num2 x coeficiente2 + num3 x coeficiente3
 ```
 **postcondición**
+
 ...
+
 fin media2
 
 
