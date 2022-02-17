@@ -38,9 +38,11 @@ Algoritmo **horas_extra**
 
 **realización**
     calcular el precio_hora de la remuneración bruta básica
+    
+    ...
 
     **Resultado** - precio_hora x (inf(horas_ext, CANTIDAD_HORAS_MAX_1) x PRECIO_1 + sup(horas_ext – CANTIDAD_HORAS_MAX_1, 0) x PRECIO_2)
 
 **postcondición**
-...
+..
 **fin horas_extra**
