@@ -4,19 +4,23 @@ EJERCICIO 11
 Algoritmo 1: Renumeración de horas extra - Solución de principio
 
 Algoritmo **horas_extra**
+
 * Establece la renumeración de "horas_ext" adicionales para un salario mensual bruto de "salario_mensual_bruto"
 
 **Entrada**
+
     salario_mensual_bruto : **REAL**
         * Importe del salario mensual bruto
     horas_ext : **ENTERO**
         * Cantidad de horas extra del mes a pagar
 
 **precondición**
+
     salario_mensual_bruto > 0
     horas_ext ≥ 0
 
 **constante**
+
     CANTIDAD_SEMANAS : **ENTERO** - 52
         * Cantidad de semanas de trabajo 
     CANTIDAD_HORAS_SEMANA : **ENTERO** - 35
@@ -29,6 +33,7 @@ Algoritmo **horas_extra**
         * Tarifa de remuneración de las otras horas extra
 
 **variable**
+
     horas_ext_1 : **ENTERO**
         * Cantidad de horas extra con PRECIO_1 %
     horas_ext_2 : **ENTERO**
@@ -37,6 +42,7 @@ Algoritmo **horas_extra**
         * Precio hora de la remuneración bruta básica
 
 **realización**
+
     calcular el precio_hora de la remuneración bruta básica
     
     ...
@@ -44,5 +50,7 @@ Algoritmo **horas_extra**
     **Resultado** - precio_hora x (inf(horas_ext, CANTIDAD_HORAS_MAX_1) x PRECIO_1 + sup(horas_ext – CANTIDAD_HORAS_MAX_1, 0) x PRECIO_2)
 
 **postcondición**
+
 ..
+
 **fin horas_extra**
