@@ -5,6 +5,39 @@ EJERCICIO 9
 
 EJERCICIO 10
 
+Algoritmo 1: calcular la media aritmética de 3 números
+
+Algoritmo **media1**
+
+**Entrada**
+
+Media: **REAL**
+  * La media entre los tres valores
+
+**Variable**
+
+ num1= **REAL**
+ 
+ num2= **REAL**
+ 
+ num3= **REAL**
+ 
+ **Realización**
+ 
+ ```
+ 
+ Calcular la media de los tres valores
+ 
+ media = (num1 + num2 + num3)/3
+ 
+ ```
+**Postcondición**
+
+...
+
+fin media1
+
+
 Algoritmo 2: calcular media ponderada con números y coeficientes de ponderación fijos
 
 Algoritmo **media2**
