@@ -1,4 +1,9 @@
 # TAREA-INDIVIDUAL
+
+SE HA REALIZADO LA TAREA INDIVIDUAL PROPUESTA
+
+La dirección readme para este repositorio es la siguiente https://github.com/Germiprogramer/TAREA-INDIVIDUAL.git
+
 EJERCICIO 8
 
 Algoritmo 1: calcular el precio de los impuestos de un producto con IVA
