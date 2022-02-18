@@ -72,10 +72,7 @@ importe > 0
 fin intereses
 
 
-
 EJERCICIO 9
-
-EJERCICIO 10
 
 Algoritmo 1: calcular la media aritmética de 3 números
 
@@ -145,7 +142,71 @@ media = num1 x coeficiente1 + num2 x coeficiente2 + num3 x coeficiente3
 
 fin media2
 
+EJERCICIO 10
 
+Algoritmo 1: Cálculo del área de un triángulo
+
+Algoritmo **area1**
+
+**Variables**
+
+Lado : **REAL**
+* Longitud del lado
+
+Altura : **REAL**
+* Altura relativa respecto al lado
+
+Área : **REAL**
+* Area del triángulo
+
+**Precondiciones**
+
+* Lado > 0
+
+* Altura > 0
+
+**Realización**
+
+```
+Calculamos el área del triángulo en base a los parámetros dados.
+
+Area = (base * altura) / 2
+```
+
+fin area1
+
+Algoritmo 2: Cálculo del área de un triángulo
+
+Algoritmo **area2**
+
+**Variables**
+
+Lado1 : **REAL**
+* Primer cateto del triángulo rectángulo
+
+Lado2 : **REAL**
+* Segundo cateto del triángulo rectángulo
+
+Área : **REAL**
+* Area del triángulo
+
+**Precondiciones**
+
+* Lado1 > 0
+
+* Lado2 > 0
+
+**Realización**
+
+```
+Calculamos el área del triángulo en base a los parámetros dados.
+
+Area = (lado1 * lado2) / 2
+```
+
+fin area2
+
+Conclusión : sí se puede usar el mismo algoritmo
 
 EJERCICIO 11
 
