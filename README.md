@@ -1,6 +1,78 @@
 # TAREA-INDIVIDUAL
 EJERCICIO 8
 
+Algoritmo 1: calcular el precio de los impuestos de un producto con IVA
+
+Algoritmo **impuestos**
+
+**Entrada**
+
+precio: **REAL**
+ * valor de un producto
+
+**precondición**
+
+precio > 0
+
+**Constante**
+
+IVA: **REAL** - 0.21
+ * porcentaje del precio inicial que se suma para calcular el precio final
+
+**Realización**
+
+````
+
+calcular el precio con el IVA. Cabe destacar que consideramos el IVA como único impuesto porque no se especifica ninguno más en el enunciado.
+
+precio = precio + precio*IVA
+
+````
+
+fin impuestos1
+
+Algoritmo 2: importe de los intereses generados
+
+Algoritmo **intereses**
+
+**Entrada**
+
+Capital inicial: **REAL**
+* dinero que inviertes
+
+Tasa de intereses: **REAL**
+* cantidad que se abona en una unidad de tiempo por cada unidad de capital invertido
+
+Tiempo: **ENTERO**
+* tiempo en meses
+
+**VARIABLE**
+
+Capital final: **REAL**
+* capital al que se le han asociado los intereses
+
+Importe: **REAL**
+* diferencia entre el capital inicial y el capital final
+
+**realización**
+
+```
+cálculo del importe en base a los valores especificados
+
+capital final = capital inicial x (1 + tasa de intereses)**tiempo
+
+importe = capital final - capital inicial
+
+```
+
+**postcondición**
+
+importe > 0
+
+fin intereses
+
+
+
 EJERCICIO 9
 
 EJERCICIO 10
